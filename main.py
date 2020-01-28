@@ -6,36 +6,8 @@
 """
 
 import json
-from os import system
 from getpass import getpass
 from modules import json_template, file_path
-
-main_message = """
-WELCOME TO MY SCRIPT!!!
-
-What options we have ?
-
-1 --------------------> Login
-2 --------------------> Register
-3 --------------------> About
-4 --------------------> Quit
-
-Please enter a option:
-"""
-
-print(main_message)
-
-while True:  
-  option = input('> ')
-
-  if not option:
-    system('clear')
-    print('Enter option: ')
-
-  elif option == '4':
-    system('clear')
-    print('Exit script')
-    break
 
 
 def comprobate_data(json):
