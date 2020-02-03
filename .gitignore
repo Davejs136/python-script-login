@@ -1,5 +1,12 @@
 # Compiled files
+modules/*.py
 modules/__pycache__
 
+# vscode
+.vscode
+
 # Default data
-data.json
+.data.json
+
+# Test file
+test.py
