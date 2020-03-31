@@ -1,6 +1,6 @@
 # Compiled files
-modules/*.py
-modules/__pycache__
+core/__pycache__/*.py
+core/__pycache__
 
 # vscode
 .vscode
@@ -10,3 +10,6 @@ modules/__pycache__
 
 # Test file
 test.py
+
+# Code configuration
+.vscode
